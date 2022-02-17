@@ -53,12 +53,12 @@ public class DepartmentListController implements Initializable{
 	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
-
+	
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		initializeNodes();
 	}
-
+	
 	private void initializeNodes() {
 		tableColumId.setCellValueFactory(new PropertyValueFactory<>("id"));
 		tableColumName.setCellValueFactory(new PropertyValueFactory<>("name"));
@@ -96,6 +96,4 @@ public class DepartmentListController implements Initializable{
 		}
 	}
 	
-	
-
 }
