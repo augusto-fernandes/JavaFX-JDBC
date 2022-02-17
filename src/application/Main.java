@@ -30,7 +30,7 @@ public class Main extends Application {
 		}
 	}
 	public static Scene getMainScene() {
-		return mainScene;
+		return mainScene;	
 	}
 
 	public static void main(String[] args) {
