@@ -32,5 +32,5 @@
             <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" />
         </columns>
       </TableView>
-   </children>F
+   </children>
 </VBox>
